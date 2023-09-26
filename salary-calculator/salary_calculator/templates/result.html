@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
+
+    <title>Employee Information Result</title>
+</head>
+<body>
+    <h1>Employee Information Result</h1>
+    <p><strong>Full Name:</strong> {{ fullname }}</p>
+    <p><strong>Email:</strong> {{ email }}</p>
+    <p><strong>Salary:</strong> ${{ salary }}</p>
+    <p><strong>Estimated Salary:</strong> ${{ estimated_salary }}</p>
+    <a href="/">Back to Input</a>
+</body>
+</html>
